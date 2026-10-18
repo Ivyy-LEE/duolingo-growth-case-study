@@ -1,0 +1,446 @@
+{
+  "audit_date": "2026-10-14",
+  "analysis_as_of": "2026-03",
+  "corporate_source_cell_review": {
+    "count": 72,
+    "official_ir_sec_match": true,
+    "details": "docs/source_manifest.csv and docs/methodology.md"
+  },
+  "independent_data": {
+    "raw_sha_checks": [
+      {
+        "file": "data/raw/competitor_web_snapshot.csv",
+        "sha256": "07d36d6b2407651764a07f62efb06499fff76847731fd26e7d7d223e33849b78",
+        "unchanged": true
+      },
+      {
+        "file": "data/raw/quarterly_performance.csv",
+        "sha256": "7042db68b03e28d806d08e70cd2209cc1c7dd6a816eacc764e2f1ebff47f135e",
+        "unchanged": true
+      },
+      {
+        "file": "data/raw/social_snapshot.csv",
+        "sha256": "2e7e47b736110a7eda1fb626537dab37f168e707aea438881bd47d5abccde761",
+        "unchanged": true
+      }
+    ],
+    "quarters": 12,
+    "derived_cells_checked": 192,
+    "null_cells_checked": 32,
+    "maximum_decimal_error": "5.09641873278E-14",
+    "long_rows_checked": 156,
+    "scope": "2023-Q1\u20132025-Q4; snapshots 2026-02 and 2026-03",
+    "latest_values": {
+      "mau_m": "133.1",
+      "dau_m": "52.7",
+      "paid_subscribers_m": "12.2",
+      "revenue_usd_m": "282.9"
+    },
+    "headline_growth_pct": {
+      "MAU": "83.33333333333333333333333330",
+      "DAU": "159.6059113300492610837438424",
+      "Paid": "154.1666666666666666666666667",
+      "Revenue": "144.5941155618574973413683091"
+    },
+    "dau_mau_pp_change": "11.6328575006260900",
+    "dau_mau_pp_yoy_change": "4.88991982756456500",
+    "latest_yoy_pct": {
+      "MAU": "14.05312767780633200",
+      "DAU": "30.1234567901234700",
+      "Paid": "28.42105263157894700",
+      "Revenue": "34.9713740458015300"
+    },
+    "latest_growth_gaps_pp": {
+      "DAU": "16.0703291123171400",
+      "Paid": "14.36792495377261500",
+      "Revenue": "20.91824636799519700"
+    }
+  },
+  "build": {
+    "status": "PASS",
+    "corporate_quarters": 12,
+    "website_rows": 3,
+    "social_rows": 9,
+    "derived_fields": 16,
+    "long_rows": 156,
+    "decimal_max_absolute_difference": 5.09641873278e-14,
+    "sql_max_absolute_difference": 2.842170943040401e-14,
+    "sql_engine": "3.53.1",
+    "native_mysql_tested": false,
+    "protected_inputs_unchanged": true,
+    "processed_outputs_regenerated": [],
+    "bounded_dashboard_text_blocks": 24,
+    "python": "/private/tmp/duolingo-build-env/bin/python",
+    "mode": "build",
+    "output_family": "notebook",
+    "notebook_executed": true,
+    "notebook_code_execution_counts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "notebook_error_outputs": 0,
+    "notebook_display_rounding": "Decimal ROUND_HALF_UP; native MySQL display semantics untested",
+    "dashboard_dimensions": {
+      "dashboard/english/dashboard_page1_growth_monetisation.png": [
+        2880,
+        1620
+      ],
+      "dashboard/english/dashboard_page2_growth_diagnostics.png": [
+        2880,
+        1620
+      ],
+      "dashboard/chinese/dashboard_page2_growth_diagnostics_cn.png": [
+        2880,
+        1620
+      ],
+      "dashboard/chinese/dashboard_page1_growth_monetisation_cn.png": [
+        2880,
+        1620
+      ]
+    },
+    "screenshot_copies_byte_identical": true,
+    "initial_data_and_sql_bytes_mtime_preserved": [
+      "data/processed/competitor_web_snapshot.csv",
+      "data/processed/quarterly_dashboard.csv",
+      "data/processed/social_snapshot.csv",
+      "data/processed/tableau_quarterly_long.csv",
+      "data/raw/competitor_web_snapshot.csv",
+      "data/raw/quarterly_performance.csv",
+      "data/raw/social_snapshot.csv",
+      "sql/00_seed_data.sql",
+      "sql/01_schema.sql",
+      "sql/02_validation.sql",
+      "sql/03_growth_metrics.sql",
+      "sql/04_period_comparison.sql",
+      "sql/05_dashboard_views.sql"
+    ],
+    "tested_versions": {
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "matplotlib": "3.11.2",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.4.0",
+      "PIL": "12.3.0",
+      "jedi": "0.19.2"
+    },
+    "final_notebook_sha256": "add685cbb22ac60f325b33f42fb9d25c47dc3d4deb9d7c17dfa470ec185192d0"
+  },
+  "case_studies": {
+    "script_syntax": "PASS",
+    "script_reruns_completed": 5,
+    "preserved_slide_size_emu": [
+      12191695,
+      6858000
+    ],
+    "visual_QA": "All 14 final PDF pages inspected. Punctuation refresh pages 5-7 inspected for both languages. No clipping, missing glyphs or overlap.",
+    "powerpoint_app_verified": false,
+    "files": {
+      "case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx": {
+        "bytes": 738862,
+        "sha256": "e33b477aa23f11fdd6b304b6e52fe509486fd3159b3064eb9e7a73fa149ffc27"
+      },
+      "case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf": {
+        "bytes": 1023707,
+        "sha256": "44480116711eaadf522007079837e1ea275040f78354bff580a7c76d05e34b98"
+      },
+      "case_study/case_study_en.html": {
+        "bytes": 4857,
+        "sha256": "375e26aa12ec4bfa5f4507aeb7301ea6644edd03523433472efb6fe89d369d6d"
+      },
+      "case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx": {
+        "bytes": 713742,
+        "sha256": "cf71e4334db78101add292b9533547c23133929a1aadd069e6594e6c92d4847e"
+      },
+      "case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf": {
+        "bytes": 997164,
+        "sha256": "961c5de66c349f405e170b2c2d9007fd3a62ca823a959f20d4e7e7513a1f2ad7"
+      },
+      "case_study/case_study_cn.html": {
+        "bytes": 4478,
+        "sha256": "bcc5d5934e414847e21eef9097f568b681e1a9700b80e8ce0517e9eb99ae148b"
+      },
+      "src/build_case_studies.mjs": {
+        "bytes": 20940,
+        "sha256": "c5bae910fcaa7687289a8dbf7874ed977e7790e3d4254b054611dbf30f8c6835"
+      }
+    },
+    "decks": {
+      "EN": {
+        "slide_count": 7,
+        "slide_size_emu": [
+          12191695,
+          6858000
+        ],
+        "image_embeds": [
+          {
+            "slide": 3,
+            "asset": "dashboard/english/dashboard_page1_growth_monetisation.png",
+            "sha256": "6bfb6dc6beedc4d17944e26a9e86c62d278ad5bad95678af67481eaf78d6ec38",
+            "asset_matches": true,
+            "within_canvas": true
+          },
+          {
+            "slide": 4,
+            "asset": "dashboard/english/dashboard_page2_growth_diagnostics.png",
+            "sha256": "1557ef352c26ef1c9b12607f3229d39db4235677ab738bebf60acbbca345d1c9",
+            "asset_matches": true,
+            "within_canvas": true
+          }
+        ],
+        "active_fonts": [
+          "Arial"
+        ],
+        "official_source_links_in_all_notes": true
+      },
+      "CN": {
+        "slide_count": 7,
+        "slide_size_emu": [
+          12191695,
+          6858000
+        ],
+        "image_embeds": [
+          {
+            "slide": 3,
+            "asset": "dashboard/chinese/dashboard_page1_growth_monetisation_cn.png",
+            "sha256": "8d1825f9478df756c51e531e49754cfecfdd8e403df31dc2fac9c5b9cbafcc56",
+            "asset_matches": true,
+            "within_canvas": true
+          },
+          {
+            "slide": 4,
+            "asset": "dashboard/chinese/dashboard_page2_growth_diagnostics_cn.png",
+            "sha256": "c1d7a34d002de21884ccac6be96df50c0fc44fd948754dce6169f945d836cf2a",
+            "asset_matches": true,
+            "within_canvas": true
+          }
+        ],
+        "active_fonts": [
+          "Hiragino Sans GB"
+        ],
+        "official_source_links_in_all_notes": true
+      }
+    },
+    "pdfs": {
+      "EN": {
+        "page_count": 7,
+        "percent_claims_page5": [
+          "160%",
+          "83%",
+          "28.0%",
+          "39.6%",
+          "154%",
+          "145%",
+          "14%",
+          "30%",
+          "28%",
+          "35%"
+        ],
+        "cjk_char_count": 0,
+        "pdf_exported_from_actual_final_pptx": true,
+        "preview_prefix": "/private/tmp/duolingo_visual_audit/finalEN"
+      },
+      "CN": {
+        "page_count": 7,
+        "percent_claims_page5": [
+          "160%",
+          "83%",
+          "28.0%",
+          "39.6%",
+          "154%",
+          "145%",
+          "14%",
+          "30%",
+          "28%",
+          "35%"
+        ],
+        "cjk_char_count": 878,
+        "pdf_exported_from_actual_final_pptx": true,
+        "preview_prefix": "/private/tmp/duolingo_visual_audit/finalCN"
+      }
+    },
+    "html": {
+      "EN": {
+        "links_all_exist": true,
+        "images_all_exist": true,
+        "numeric_claims": [
+          "160%",
+          "83%",
+          "28.0%",
+          "39.6%",
+          "154%",
+          "145%",
+          "14%",
+          "30%",
+          "28%",
+          "35%"
+        ],
+        "image_count": 2,
+        "responsive_viewport": true
+      },
+      "CN": {
+        "links_all_exist": true,
+        "images_all_exist": true,
+        "numeric_claims": [
+          "160%",
+          "83%",
+          "28.0%",
+          "39.6%",
+          "154%",
+          "145%",
+          "14%",
+          "30%",
+          "28%",
+          "35%"
+        ],
+        "image_count": 2,
+        "responsive_viewport": true
+      }
+    },
+    "receipts": {
+      "EN": ".build/case-studies/EN-1791992243159.validation.json",
+      "CN": ".build/case-studies/CN-1791992243159.validation.json"
+    },
+    "numeric_claims_bilingual_pdf_match": true,
+    "numeric_claims_bilingual_html_match": true
+  },
+  "presentation_validation": {
+    "EN": {
+      "final_sha256": "e33b477aa23f11fdd6b304b6e52fe509486fd3159b3064eb9e7a73fa149ffc27",
+      "package_integrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 29,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentation_layout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 98,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Arial"
+          ],
+          "observed_font_use_counts": {
+            "Arial": 98
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          13.333,
+          7.5
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 98,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Arial"
+          ],
+          "observed_font_use_counts": {
+            "Arial": 98
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "first_party_import": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "e33b477aa23f11fdd6b304b6e52fe509486fd3159b3064eb9e7a73fa149ffc27",
+        "runtimeNodeModules": "<local-runtime>/node/node_modules",
+        "nodeExecutable": "<local-runtime>/node/bin/node"
+      }
+    },
+    "CN": {
+      "final_sha256": "cf71e4334db78101add292b9533547c23133929a1aadd069e6594e6c92d4847e",
+      "package_integrity": {
+        "chart_count": 0,
+        "claim_boundary": "Structural package checks only; no slide text, notes, formulas, chart values, or native PowerPoint execution were inspected.",
+        "finding_count": 0,
+        "findings": [],
+        "notes_parts_skipped": 7,
+        "relationship_part_count": 29,
+        "slide_count": 7,
+        "status": "pass",
+        "exitCode": 0,
+        "findingCount": 0,
+        "warnings": []
+      },
+      "presentation_layout": {
+        "finding_count": 0,
+        "findings": [],
+        "font_policy": {
+          "checked_text_script_count": 116,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Hiragino Sans GB"
+          ],
+          "observed_font_use_counts": {
+            "Hiragino Sans GB": 116
+          },
+          "passed": true,
+          "performed": true
+        },
+        "slide_count": 7,
+        "slide_size_in": [
+          13.333,
+          7.5
+        ],
+        "warning_count": 0,
+        "warnings": [],
+        "exitCode": 0,
+        "findingCount": 0,
+        "fontPolicy": {
+          "checked_text_script_count": 116,
+          "native_font_rendering_verified": false,
+          "observed_font_families": [
+            "Hiragino Sans GB"
+          ],
+          "observed_font_use_counts": {
+            "Hiragino Sans GB": 116
+          },
+          "passed": true,
+          "performed": true
+        }
+      },
+      "first_party_import": {
+        "performed": true,
+        "passed": true,
+        "slideCount": 7,
+        "sha256": "cf71e4334db78101add292b9533547c23133929a1aadd069e6594e6c92d4847e",
+        "runtimeNodeModules": "<local-runtime>/node/node_modules",
+        "nodeExecutable": "<local-runtime>/node/bin/node"
+      }
+    }
+  },
+  "integration": {
+    "initial_data_and_sql_files_preserved": 13,
+    "notebook_real_outputs_verified": true,
+    "screenshot_matches": 4,
+    "dashboard_dimensions_verified": true,
+    "case_study_hashes_verified": true,
+    "finalizer_hashes_verified": true,
+    "markdown_local_links_exist": true,
+    "native_mysql_tested": false,
+    "native_powerpoint_tested": false,
+    "native_tableau_present": false,
+    "competitor_historical_provenance": "unverified"
+  }
+}

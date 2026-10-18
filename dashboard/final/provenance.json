@@ -1,0 +1,39 @@
+{
+  "retrieved_on": "2026-10-18",
+  "analysis_as_of": "2026-03",
+  "images": [
+    {
+      "page": 1,
+      "file": "tableau_page1.png",
+      "published_export_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview.png?:showVizHome=no&:refresh=yes&:size=1600,900",
+      "sha256": "4b3c42000d2479a960edf36b470a6fe4b02a4add9629ed033951d212581685d9",
+      "retouched": false
+    },
+    {
+      "page": 2,
+      "file": "tableau_page2.png",
+      "sha256": "84564dfee55fc9ca26a2669193270883df3b1bc90006f2234459dade2892775d",
+      "retouched": false,
+      "previous_public_export": {
+        "url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P2_Growth_Diagnostics_Strategic_Context.png?:showVizHome=no&:refresh=yes&:size=1600,900",
+        "sha256": "4db99ab37cd780034ea2cdd1212b169dc4aa82660ac73c060f1bf53c6441b29f",
+        "reason_replaced_in_case_studies": "Public image export clips the axis title, third priority sentence and source/caveat line."
+      },
+      "source_type": "complete_local_native_tableau_dashboard_capture",
+      "source_workbook": "Duolingo_Growth_Marketing_Analytics.twbx",
+      "source_workbook_sha256": "d5395d9ea9f68fb55dde6c4adc31fb53c685ae2fa0fb647f7cde78e4e14b9453",
+      "captured_on": "2026-10-18",
+      "native_canvas_pixels": [
+        3200,
+        1800
+      ],
+      "image_pixels": [
+        3198,
+        1852
+      ],
+      "processing": "Crop the native presentation screenshot to the dashboard canvas; proportional resampling and white bottom padding preserve the existing Page 4 image-frame aspect ratio.",
+      "content_redrawn": false,
+      "workbook_modified": false
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "verified_on": "2026-10-18",
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "EN PPTX slide3 uses exact final Page1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PPTX slide4 uses exact final Page2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PPTX exact clickable URL",
+      "pass": true,
+      "details": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ]
+    },
+    {
+      "check": "EN PPTX priority Protect engagement quality",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PPTX priority Strengthen premium value communication",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PPTX priority Balance growth with user control",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF 7 pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF page3 displays final Page1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF page4 displays final Page2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF exact clickable URL",
+      "pass": true,
+      "details": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ]
+    },
+    {
+      "check": "EN PDF priority Protect engagement quality",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF priority Strengthen premium value communication",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN PDF priority Balance growth with user control",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "EN exports stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "CN PPTX slide3 uses exact final Page1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CN PPTX slide4 uses exact final Page2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CN PPTX exact clickable URL",
+      "pass": true,
+      "details": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ]
+    },
+    {
+      "check": "CN PDF 7 pages",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CN PDF page3 displays final Page1",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CN PDF page4 displays final Page2",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "CN PDF exact clickable URL",
+      "pass": true,
+      "details": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ]
+    },
+    {
+      "check": "CN exports stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "README.md exact URL",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "README.md stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "README_CN.md exact URL",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "README_CN.md stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "case_study/case_study_en.html exact URL",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "case_study/case_study_en.html stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "case_study/case_study_cn.html exact URL",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "case_study/case_study_cn.html stale wording absent",
+      "pass": true,
+      "details": []
+    },
+    {
+      "check": "ZIP current case_study/case_study_en.html",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current case_study/case_study_cn.html",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current README.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current README_CN.md",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current dashboard/final/tableau_page2.png",
+      "pass": true,
+      "details": null
+    },
+    {
+      "check": "ZIP current dashboard/final/tableau_page1.png",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "artifacts": {
+    "EN": {
+      "pptx_images": [
+        {
+          "slide": 3,
+          "matches_final": true,
+          "size": [
+            1599,
+            926
+          ]
+        },
+        {
+          "slide": 4,
+          "matches_final": true,
+          "size": [
+            1599,
+            926
+          ]
+        }
+      ],
+      "pptx_links": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ],
+      "pdf_images": [
+        {
+          "page": 3,
+          "size": [
+            1599,
+            926
+          ],
+          "MAE_0_255": 0.0
+        },
+        {
+          "page": 4,
+          "size": [
+            1599,
+            926
+          ],
+          "MAE_0_255": 0.5657329027186268
+        }
+      ],
+      "pdf_links": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ],
+      "priorities_pptx": "5. Operational Implications 01 Protect engagement quality Investigate the drivers behind DAU growth outpacing MAU and monitor whether stronger activity intensity is sustained. 02 Strengthen premium value communication Test clearer subscription value messaging and targeted trial opportunities rather than assuming faster revenue growth reflects better conversion. 03 Balance growth with user control Maintain configurable engagement settings and monitor user response as activity and monetisation continue to scale. Sources: Duolingo IR / SEC. Definitions and full links: methodology, source manifest and speaker notes",
+      "priorities_pdf": "5. Operational Implications 01 Protect engagement quality Investigate the drivers behind DAU growth outpacing MAU and monitor whether stronger activity intensity is sustained. 02 Strengthen premium value communication Test clearer subscription value messaging and targeted trial opportunities rather than assuming faster revenue growth reflects better conversion. 03 Balance growth with user control Maintain configurable engagement settings and monitor user response as activity and monetisation continue to scale. Sources: Duolingo IR / SEC. Definitions and full links: methodology, source manifest and speaker notes"
+    },
+    "CN": {
+      "pptx_images": [
+        {
+          "slide": 3,
+          "matches_final": true,
+          "size": [
+            1599,
+            926
+          ]
+        },
+        {
+          "slide": 4,
+          "matches_final": true,
+          "size": [
+            1599,
+            926
+          ]
+        }
+      ],
+      "pptx_links": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ],
+      "pdf_images": [
+        {
+          "page": 3,
+          "size": [
+            1599,
+            926
+          ],
+          "MAE_0_255": 0.0
+        },
+        {
+          "page": 4,
+          "size": [
+            1599,
+            926
+          ],
+          "MAE_0_255": 0.5657329027186268
+        }
+      ],
+      "pdf_links": [
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+      ],
+      "priorities_pptx": "5. 运营含义 01 保护活跃质量 调查 DAU 增长快于 MAU 的驱动 因素，并持续观察更高的活跃强度 能否维持。 02 强化会员价值沟通 测试更清晰的订阅价值沟通与定向 试用机会，不能将更快的收入增长 直接解释为更高的转化效率。 03 兼顾增长与用户自主控制 保留可配置的互动设置，并在活跃 与商业化扩大的过程中持续监控用 户反应。 来源：Duolingo IR / SEC。定义与完整链接见方法说明、来源清单及演讲者备注",
+      "priorities_pdf": "5. 运营含义 01 保护活跃质量 调查 DAU 增长快于 MAU 的驱动 因素，并持续观察更高的活跃强度 能否维持。 02 强化会员价值沟通 测试更清晰的订阅价值沟通与定向 试用机会，不能将更快的收入增长 直接解释为更高的转化效率。 03 兼顾增长与用户自主控制 保留可配置的互动设置，并在活跃 与商业化扩大的过程中持续监控用 户反应。 来源： Duolingo IR / SEC 。定义与完整链接见方法说明、来源清单及演讲者备注"
+    },
+    "zip": [
+      {
+        "file": "case_study/case_study_en.html",
+        "same": true,
+        "sha256": "d760156fdd3aea1f479344265feea824782041a65a457a67b49052abb31a527b"
+      },
+      {
+        "file": "case_study/case_study_cn.html",
+        "same": true,
+        "sha256": "cdea4ffa330da94c6c5d505e36128f1640904b52be10cc5cc141a6b08c66d983"
+      },
+      {
+        "file": "case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx",
+        "same": true,
+        "sha256": "87dc0449cdca44a341a63065bbd1f7e0286b142b15f0c46bc659a8fc6c2306e6"
+      },
+      {
+        "file": "case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf",
+        "same": true,
+        "sha256": "441cfe0069e285578e3bcf05f0dec513b8ece1462e22238fc8573ad3a12ba65a"
+      },
+      {
+        "file": "case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx",
+        "same": true,
+        "sha256": "68503ebe370deedf66ea219c436629cbeabd9f6fa93acf55b4afbea9504f276f"
+      },
+      {
+        "file": "case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf",
+        "same": true,
+        "sha256": "f1fd59a99076d57688dc2b3b0931318e01566d4ac98c80a5c258f8d804ec45ee"
+      },
+      {
+        "file": "README.md",
+        "same": true,
+        "sha256": "1f8cc9fc8e2e8ac35a6c66180255eb025d898b09c7d715e56d1e6b947e6e68fb"
+      },
+      {
+        "file": "README_CN.md",
+        "same": true,
+        "sha256": "301d2e2fc493cf3f22061894a6b19116cb51451765de06b9cc2a68490fe5a115"
+      },
+      {
+        "file": "dashboard/final/tableau_page2.png",
+        "same": true,
+        "sha256": "4db99ab37cd780034ea2cdd1212b169dc4aa82660ac73c060f1bf53c6441b29f"
+      },
+      {
+        "file": "dashboard/final/tableau_page1.png",
+        "same": true,
+        "sha256": "4b3c42000d2479a960edf36b470a6fe4b02a4add9629ed033951d212581685d9"
+      }
+    ]
+  },
+  "additional": {
+    "EN": {
+      "1": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      },
+      "3": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      },
+      "4": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      }
+    },
+    "CN": {
+      "1": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      },
+      "3": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      },
+      "4": {
+        "pptx_exact_link": true,
+        "pdf_exact_link": true,
+        "pdf_link_count": 2
+      }
+    },
+    "old_prototype_entries": []
+  },
+  "frozen_files": {
+    "count": 17,
+    "all_byte_identical": true,
+    "sha256": {
+      "data/processed/social_snapshot.csv": "2e7e47b736110a7eda1fb626537dab37f168e707aea438881bd47d5abccde761",
+      "data/processed/competitor_web_snapshot.csv": "07d36d6b2407651764a07f62efb06499fff76847731fd26e7d7d223e33849b78",
+      "data/processed/quarterly_dashboard.csv": "28785b82347e6bec8fe330ffa8d04f0b56e16ce05887ca268a54cdbc0444c72c",
+      "data/processed/tableau_quarterly_long.csv": "0c5b62b8d8cd8d2dc22aab7cbefb8bdec988c09d72a652e9b8770b00db95dd98",
+      "data/raw/social_snapshot.csv": "2e7e47b736110a7eda1fb626537dab37f168e707aea438881bd47d5abccde761",
+      "data/raw/competitor_web_snapshot.csv": "07d36d6b2407651764a07f62efb06499fff76847731fd26e7d7d223e33849b78",
+      "data/raw/quarterly_performance.csv": "7042db68b03e28d806d08e70cd2209cc1c7dd6a816eacc764e2f1ebff47f135e",
+      "sql/05_dashboard_views.sql": "f2fa11202112fd20786d87193b00b521185ff6ca296ae330121b558c3a7a8b09",
+      "sql/04_period_comparison.sql": "8b7f6643308a4214466c2c9c73185579d6feb28fa66b4d1c24423183bf37ab6c",
+      "sql/02_validation.sql": "d4d7668d020fb95ea17dcd821ab62e21c965e6bced580589463c52cde0bd9a63",
+      "sql/03_growth_metrics.sql": "c3b7bf3ca5f94e8340ab497bcea595bb75bf1a4cf3888277d873fb381ade1343",
+      "sql/01_schema.sql": "e2287cc3b8c1217d1956cd3372879391d8e9f42265a0f463f79353330e7c1426",
+      "sql/00_seed_data.sql": "b02fe2ce7e2d58f5fbcd31d14c526fc50b275b7a981e75b266744114b5dcde67",
+      "docs/data_dictionary.md": "20f58cdeba6c677c73e11eb6d8da815d1bd6b299b464fa7478dbbcf587343a7a",
+      "docs/source_manifest.csv": "33e8d571ad368831f8f14dae5f5927876fa43246d30b7002a35f1e015c6c7b92",
+      "工作簿 1.twbx": "0e8cd7d34ce29ca64caed17e15e7748699404d38fc574d898e94788be2f04817",
+      "dashboard/final/Duolingo_Growth_Marketing_Analytics.twbx": "d5395d9ea9f68fb55dde6c4adc31fb53c685ae2fa0fb647f7cde78e4e14b9453"
+    }
+  },
+  "visual_review": {
+    "pdf_pages_rendered_and_inspected": 14,
+    "layout_defects": 0
+  },
+  "source_provenance": {
+    "retrieved_on": "2026-10-18",
+    "analysis_as_of": "2026-03",
+    "images": [
+      {
+        "page": 1,
+        "file": "tableau_page1.png",
+        "published_export_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview.png?:showVizHome=no&:refresh=yes&:size=1600,900",
+        "sha256": "4b3c42000d2479a960edf36b470a6fe4b02a4add9629ed033951d212581685d9",
+        "retouched": false
+      },
+      {
+        "page": 2,
+        "file": "tableau_page2.png",
+        "published_export_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P2_Growth_Diagnostics_Strategic_Context.png?:showVizHome=no&:refresh=yes&:size=1600,900",
+        "sha256": "4db99ab37cd780034ea2cdd1212b169dc4aa82660ac73c060f1bf53c6441b29f",
+        "retouched": false
+      }
+    ]
+  }
+}

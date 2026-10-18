@@ -1,0 +1,34 @@
+{
+  "revision": "page4_layout_only",
+  "date": "2026-10-18",
+  "input_zip_sha256": "586fdf0de33df6b815972b05484e8f4883d6c98fd5de093c0f1b273422567596",
+  "source": "Complete native local Tableau Page 2 presentation screenshot; local workbook is byte-identical to the packaged final TWBX.",
+  "changed_page": 4,
+  "source_image_sha256": "84564dfee55fc9ca26a2669193270883df3b1bc90006f2234459dade2892775d",
+  "requested_visibility_checks": {
+    "full_indexed_growth_axis_title": true,
+    "complete_third_operational_priority_sentence": true,
+    "full_sources_and_competitor_caveat": true
+  },
+  "preservation_checks": {
+    "pdf_other_six_pages_pixel_identical_each_language": true,
+    "pdf_all_page_text_content_streams_and_annotations_unchanged": true,
+    "pptx_only_embedded_page4_image_member_changed_each_language": true,
+    "workbook_data_analysis_wording_recommendations_and_structure_unchanged": true,
+    "all_other_existing_zip_members_byte_identical": true
+  },
+  "visual_checks": [
+    "English PDF page 4",
+    "Chinese PDF page 4",
+    "English PPTX slide 4 render",
+    "Chinese PPTX slide 4 render"
+  ],
+  "artifact_hashes": {
+    "case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf": "021e6f601c14162f88cac31d354a15df94848b41190ebfd6ceac3c81036296e7",
+    "case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx": "9ffa66820b6fdc133752a8c9e50bd3feedf7324a9d4b72f4bacc79f7d0eb360c",
+    "case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf": "0fdc62d3dc8a78489d68abc2c5d2dc5f9b48a1ecb8a7a58fc21cc6d4abc91895",
+    "case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx": "6dba412a1746dd807453e10fc90955c1159b39e697118158298097bb361acb43",
+    "dashboard/final/tableau_page2.png": "84564dfee55fc9ca26a2669193270883df3b1bc90006f2234459dade2892775d"
+  },
+  "supersedes": "Current Page 4 image provenance and case-study binary hashes supersede the corresponding previous export-verification records; all previous analysis remains unchanged."
+}

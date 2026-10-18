@@ -1,0 +1,19 @@
+{
+  "analysis_as_of": "2026-03",
+  "tableau_public_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+  "tableau_workbook": "dashboard/final/Duolingo_Growth_Marketing_Analytics.twbx",
+  "final_dashboard_images": {
+    "page1": "dashboard/final/tableau_page1.png",
+    "page2": "dashboard/final/tableau_page2.png"
+  },
+  "publication_status": "verified_public_image_exports",
+  "independent_publication_verification": true,
+  "tableau_public_page2_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P2_Growth_Diagnostics_Strategic_Context?:showVizHome=no",
+  "publication_verification": {
+    "date": "2026-10-18",
+    "method": "Unauthenticated Tableau Public PNG exports for both final dashboard pages",
+    "interactive_browser_tabs_tested": false
+  },
+  "tableau_public_display_url": "https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview",
+  "share_url_source": "project_owner_provided_2026-10-18"
+}

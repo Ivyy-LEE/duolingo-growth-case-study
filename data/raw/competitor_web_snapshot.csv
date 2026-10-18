@@ -1,0 +1,4 @@
+brand,snapshot_month,total_visits_m,bounce_rate_pct,pages_per_visit,avg_visit_duration_sec,source_id
+Duolingo,2026-02,50.1,31.71,6.42,476,COMP_WEB_2026_02
+Babbel,2026-02,3.9,39.71,6.08,275,COMP_WEB_2026_02
+Busuu,2026-02,2.9,36.39,20.67,464,COMP_WEB_2026_02
