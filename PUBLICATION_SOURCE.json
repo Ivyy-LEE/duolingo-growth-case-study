@@ -3,7 +3,7 @@
   "source_zip_sha256": "ceb8310a6a3a9309bd34e0bb861a93cf06de39c1bded9bccff63847f5fa08eb6",
   "analysis_as_of": "2026-03",
   "publication_target": "GitHub Pages",
-  "preservation": "47 original files are copied byte-for-byte. Two public implementation/history copies only normalise workstation paths. All case-study prose, PDF/PPTX/HTML files, data, analysis, metric definitions, recommendations, caveats, dashboard images and workbook remain byte-identical.",
+  "preservation": "Frozen analysis, data, SQL, Tableau images/workbook and approved English PDF/PPTX/standalone HTML remain unchanged. Chinese wording is curated in one shared source and regenerated into the Chinese web pages, seven-page PDF, editable PPTX and README. The approved English homepage is available at /en/ with routing and language navigation changes only.",
   "frozen_files": {
     ".gitignore": "172648dd6b2c63ae1a4a5fa158fde479adf5293f18d3c49187fb846c88c1c940",
     "CHANGELOG.md": "9bcccb93b13ed3c6cd1d7735c93f269c8fc457fbd5996e8e53f46bc1910504e9",
@@ -56,11 +56,26 @@
     "src/finalize_case_study_links.py": "53f959bd9e33325ca5bcb067abcc217423a6c9b010605e3a76773a8769d2315f"
   },
   "public_metadata_normalisation": {
-    "src/build_case_studies.mjs": "Replace workstation-specific runtime and skill defaults with portable environment/local defaults; no analysis or prose changes.",
+    "src/build_case_studies.mjs": "Portable environment configuration and Chinese-only shared-source regeneration; English deliverables and Tableau assets are read only.",
     "docs/qa_evidence.json": "Replace local absolute artifact paths with repository-relative paths; runtime paths with <local-runtime>. Historical QA values unchanged."
   },
   "normalised_public_copy_sha256": {
-    "src/build_case_studies.mjs": "0f87a31c7063e90e4f60412d162de4c5ebaeaf5ebae3536f1e373759e89c5026",
+    "src/build_case_studies.mjs": "2a69837a4993fd85a9bd13d6692447dca57b876bebf5e5b3f1489f26c5a0a6df",
     "docs/qa_evidence.json": "03362b191c6fe75d0c2cf38449a6a9e46ad1e33fc41a50898ca0fdf91c56c3fc"
+  },
+  "frozen_files_note": "These hashes identify the original Layout_Final source archive members, not newly localised Chinese outputs.",
+  "localisation_revision": {
+    "baseline_commit": "84cec8070cc9438c2436a49db592129c298e42fd",
+    "source": "src/copy_zh_cn.json",
+    "primary_language": "zh-Hans",
+    "routes": {
+      "chinese": "/",
+      "english": "/en/"
+    },
+    "scope": "Native Chinese copy and language routing only; no new analysis.",
+    "dashboard_pdf_pages_preserved": [
+      3,
+      4
+    ]
   }
 }

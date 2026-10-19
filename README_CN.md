@@ -2,92 +2,142 @@
 
 **项目定位：** 增长运营 / 用户运营 / 产品运营 / 综合运营
 
-本项目在原 Digital Marketing Strategy 课程中 Duolingo 案例的基础上，进一步补充数据分析层。重点不是展示复杂技术，而是回答一个增长运营问题：**在用户规模扩大的同时，Duolingo 的活跃质量和商业化表现是否也同步增强？**
+随着 Duolingo 用户规模扩大，用户活跃度和商业化表现是否也同步提升？本项目通过 12 个季度的公开数据，对用户增长、活跃表现与商业化增长进行拆解，并将分析结果转化为运营关注重点。
 
-[阅读案例](case_study/case_study_cn.html) · [PDF](case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf) · [可编辑幻灯片](case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx) · [English](README.md)
+项目工作：明确业务问题，统一指标口径，核对公开数据与计算结果，完成两页 Tableau Dashboard，并将分析发现转化为运营关注重点。
 
-## 核心业务问题
+[中文作品页](https://ivyy-lee.github.io/duolingo-growth-case-study/) · [English](https://ivyy-lee.github.io/duolingo-growth-case-study/en/) · [中文 PDF](case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf) · [英文 PDF](case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf)
 
-1. 2023-2025 年，Duolingo 的用户规模、日常活跃、付费订阅用户和收入如何变化？
-2. 活跃与商业化增速是否高于整体用户规模增速？
-3. 2026 年 2-3 月的竞品数字表现快照能提供什么战略背景？
-4. 对增长/运营团队而言，下一步最值得持续监控和补充分析的是什么？
+## 业务问题
+
+仅看用户规模并不能完整判断增长质量。本项目进一步结合 DAU、付费订阅用户和收入表现，观察用户规模扩张是否同时带来了更高的活跃度和更强的商业化表现。
+
+1. 2023 Q1–2025 Q4 期间，用户规模、活跃度、付费订阅和收入分别发生了怎样的变化？
+2. DAU、付费订阅用户和收入的增长速度是否高于 MAU？
+3. 2026 年初的竞品网站与社媒快照能提供哪些竞争背景？
+4. 基于公开数据，增长与运营团队下一步最值得关注和验证的问题是什么？
 
 ## 数据范围
 
 - **分析时点：** 2026 年 3 月
-- **公司经营趋势：** 2023 Q1-2025 Q4，共 12 个季度
+- **经营数据范围：** 2023 Q1–2025 Q4 · 共 12 个季度
 - **竞品网站数据：** 2026 年 2 月快照
-- **社交媒体数据：** 2026 年 3 月快照
+- **竞品社媒数据：** 2026 年 3 月快照
 
-公司经营数据来自 Duolingo Investor Relations 与 SEC 官方披露；竞品快照保留从历史课程作业快照继承的数值。仓库中缺少原作业及带日期的截图，因此无法独立核实竞品快照的历史来源。完整来源见[来源清单](docs/source_manifest.csv)。
+- 分析 2023 Q1–2025 Q4 共 12 个季度的 Duolingo 官方经营数据，来源包括 Investor Relations 和 SEC 披露。
+- 对比 MAU、DAU、DAU/MAU、付费订阅用户和季度收入，并计算 QoQ、YoY 和以 2023 Q1 = 100 为基期的增长指数。
+- 竞品网站数据为 2026 年 2 月快照，社媒数据为 2026 年 3 月快照，仅用于补充竞争背景。
+- 使用 SQL 编写核心指标和增速计算逻辑，Python 用于数据质量检查与结果交叉验证，最终通过 Tableau 展示分析结果。
+
+完整来源见[来源清单](docs/source_manifest.csv)，指标定义见[数据字典](docs/data_dictionary.md)。
 
 ## 最终 Tableau Dashboard
 
-本项目以已完成的两页英文 Tableau Dashboard 为最终可视化版本，中英文案例复用同一组图表。可打开 Tableau Public 的 [Page 1](https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) / [Page 2](https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P2_Growth_Diagnostics_Strategic_Context?:showVizHome=no)，或下载[最终原生工作簿](dashboard/final/Duolingo_Growth_Marketing_Analytics.twbx)。**2026 年 10 月 18 日**已在未登录状态下取得两页的公开图片导出；本次未测试浏览器中的交互标签页。链接统一维护于[链接记录](docs/portfolio_links.json)。
+中英文案例共用以下两页最终英文 Tableau Dashboard。点击图片可查看完整尺寸。
 
-### Page 1 - 增长与商业化概览
+[查看 Tableau Page 1](https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P1_Growth_Monetisation_Overview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) · [查看 Tableau Page 2](https://public.tableau.com/views/Duolingo_Growth_Marketing_Analytics/P2_Growth_Diagnostics_Strategic_Context?:showVizHome=no) · [下载最终 Tableau 工作簿](dashboard/final/Duolingo_Growth_Marketing_Analytics.twbx)
 
-![Dashboard Page 1](dashboard/final/tableau_page1.png)
+链接统一维护于[链接记录](docs/portfolio_links.json)。最终 Dashboard 图片和工作簿保持不变。
 
-### Page 2 - 增长质量诊断与战略背景
+### Page 1：用户规模、活跃度与商业化概览
 
-![Dashboard Page 2](dashboard/final/tableau_page2.png)
+![Tableau Page 1：用户规模、活跃度与商业化概览](dashboard/final/tableau_page1.png)
 
-最终 Page 2 包含 Q4 2025 增速差卡片、**指数化增长比较（Indexed Growth Comparison）**、**活跃增速差（Engagement Growth Gap）**、**商业化增速差（Monetisation Growth Gaps）**、独立展示的 **网站流量（Website Traffic，2026 年 2 月）**与**社交媒体受众（Social Audience，2026 年 3 月）**背景快照，以及**运营优先事项（Operational Priorities）**。
+Page 1：用户规模、活跃度与商业化趋势。
 
-## 关键业务洞察
+### Page 2：增长诊断与竞争背景
 
-- **活跃增长明显快于用户规模。** 2023 Q1 至 2025 Q4，MAU 增长 **83%**，DAU 增长 **160%**；DAU/MAU 从 **28.0% 提升至 39.6%，增加 11.6 个百分点**。
-- **商业化扩张快于整体用户增长。** 同期付费订阅用户增长 **154%**，季度收入增长 **145%**，均明显高于 MAU 增速。
-- **2025 年增长结构发生变化。** 到 Q4，MAU 同比增速放缓至 **14%**，但 DAU、付费用户和收入仍分别同比增长 **30%、28% 和 35%**。
-- **所提供的 2026 年 2-3 月快照中，Duolingo 的数字触达领先。** 2 月网站访问量为 50.1M，Babbel 为 3.9M、Busuu 为 2.9M；Duolingo 在三个社媒平台上的规模也均领先。这些继承的数值仅用于单点背景，原始历史截图未经核实，不能据此判断市场份额、转化或留存。
+![Tableau Page 2：增长诊断与竞争背景](dashboard/final/tableau_page2.png)
 
-## 运营含义
+Page 2：增长差异、历史竞品背景与运营重点。
 
-1. **保护活跃质量（Protect engagement quality）。** 调查 DAU 增长快于 MAU 的驱动因素，持续监控更高的活跃强度能否保持。
-2. **强化会员价值沟通（Strengthen premium value communication）。** 测试更清晰的订阅价值沟通和定向试用机会；收入增长更快并不能证明转化改善。
-3. **兼顾增长与用户自主控制（Balance growth with user control）。** 保留可配置的互动设置，并在活跃与商业化持续扩张时监控用户反应。
+Page 2 保留 Q4 2025 增速差卡片、Indexed Growth Comparison、Engagement Growth Gap、Monetisation Growth Gaps、分别展示的网站流量（2026 年 2 月）和社媒受众（2026 年 3 月）快照，以及 Operational Priorities。
 
-以上优先事项与最终 Tableau Dashboard 一致。拟议的运营复盘和实验需要获授权的内部证据及免费体验保护指标，不代表已确认产品存在缺陷，也不声称已产生实际业务收益。
+## 关键发现
 
-## 局限
+- 2023 Q1 至 2025 Q4，MAU 增长 83%，DAU 增长 160%。同期 DAU/MAU 从 28.0% 提升至 39.6%，增加 11.6 个百分点，说明日活用户相对于月活用户的占比持续提高，整体活跃强度增强。
 
-- 仅使用公开汇总数据，没有内部用户级数据。
-- 无法进行真实 free-to-paid funnel、campaign ROI 或留存 cohort 分析。
-- 竞品网站和社媒数据是继承的单点历史快照，原始带日期截图缺失。
-- MAU/DAU 使用 Duolingo 自有分析系统定义和估算口径，并非第三方独立验证。
-- 项目结论为描述性分析，不做因果推断。
+- 同期付费订阅用户增长 154%，季度收入增长 145%，增速均明显高于 MAU。公开数据表明商业化增长快于用户规模扩张，但无法据此判断具体是转化率、定价还是其他因素推动。
 
-## 方法与工具
+- 到 2025 Q4，MAU 同比增速已放缓至 14%，但 DAU、付费订阅用户和季度收入仍分别同比增长 30%、28% 和 35%。用户规模增速放缓的同时，活跃和商业化仍保持更快增长。
 
-- **SQL / Python：** 计算季度 KPI、同比/环比、指数化增长和增速差，并以独立计算核对结果；数据口径与分析结论保持冻结。
-- **Tableau：** 以最终两页工作簿展示发现，详见[交付状态](TABLEAU_HANDOFF.md)和[工作簿维护指南](docs/tableau_build_guide.md)。
-- **校验边界：** SQL 公式通过已说明的 SQLite 兼容适配执行，尚未验证原生 MySQL 执行；完整口径和检查见[方法说明](docs/methodology.md)。
+- 2026 年 2–3 月的历史快照显示，在 Duolingo、Babbel 和 Busuu 三个对比品牌中，Duolingo 的网站流量和社媒受众规模明显领先。由于缺少原始带日期截图，这些历史数值目前无法独立复核，因此仅作为竞争背景参考，不用于判断市场份额或长期竞争趋势。
 
-本项目以公开证据支持运营判断，不虚构漏斗、投放指标或已落地的业务收益。
+网站快照中保留的访问量为：Duolingo 50.1M、Babbel 3.9M、Busuu 2.9M；Duolingo 在三个观察社媒平台的受众规模也均领先。这些数据仅用于竞争背景参考。
+
+竞品网站与社媒数据来自原课程项目中记录的历史快照。由于原始带日期截图和部分账户链接未保留，目前无法独立复核其准确采集时间，因此这些数据仅用于补充竞争背景，不用于推断市场份额、转化率、留存或长期趋势。
+
+## 运营重点
+
+以下方向基于公开数据提出，仍需结合内部用户数据和实际测试进一步验证。本项目不声称相关策略已经实施或产生业务效果。
+
+### 1. 关注活跃增长质量
+
+进一步分析 DAU 增速高于 MAU 的原因，并持续观察 DAU/MAU 的提升是否能够维持，避免只用用户规模判断增长质量。
+
+### 2. 强化会员价值沟通
+
+测试更清晰的会员价值表达和更有针对性的试用策略，同时避免仅凭收入增速推断转化效率已经提升。
+
+### 3. 兼顾增长与用户自主性
+
+在推动活跃和商业化增长的同时，保留由用户自主调整的互动设置，并持续观察用户对相关机制的反馈。
+
+本项目将公开数据中的增长变化转化为运营关注重点与验证方向。后续行动仍需结合内部数据和实际测试，并关注免费用户体验与学习体验。
+
+## 分析局限
+
+- 公开汇总数据无法支持同期群留存（cohort retention）或真实免费到付费转化漏斗分析。
+- 竞品网站与社媒数据为历史单点快照，且缺少原始带日期截图，因此仅用于竞争背景参考。
+- DAU/MAU 反映整体活跃强度，不等同于留存率。
+- 仅凭付费订阅用户和收入增长，无法区分转化率、定价或其他因素各自的影响。
+- 本项目识别的是描述性关系，不进行因果推断，也不声称运营建议已产生实际业务效果。
+
+MAU、DAU 采用 Duolingo 自有的分析定义和估算口径，本项目未对用户人数进行独立测量。
+
+## 方法与指标口径
+
+- 使用 Duolingo 官方披露的 12 个季度、6 项经营指标，逐项记录数据来源与指标定义。
+- 比较期间增长、QoQ、YoY、DAU/MAU 和增长指数；增速差用百分点表示。
+- 通过 SQL 计算逻辑与 Python 结果交叉核对 16 个衍生字段，缺少前期数据的比较保留为空值。
+- 两页已完成并发布的英文 Tableau Dashboard 为最终交互式展示，中英文案例共用同一组 Dashboard。
+
+增长率根据公开披露的数值计算，并按展示需要四舍五入。MAU、DAU 为季度平均人数，付费订阅用户为期末人数，收入为当季金额。披露数值本身已做过舍入，因此计算增速可能与公司使用未舍入数据公布的增速略有差异。
+
+DAU/MAU 是季度平均 DAU 与季度平均 MAU 的比值，反映整体活跃强度，不等同于留存率，也不能代表某个用户每日使用的概率。增速差用百分点表示，增长指数以 2023 Q1 = 100 为基期。
+
+### 计算与工具说明
+
+SQL 逻辑已通过 SQLite 兼容环境进行结果核对；原生 MySQL 环境未单独执行验证。原始数据、处理后 CSV、指标定义和已确认的分析结论均保持不变。
+
+完整口径与计算说明见[方法说明](docs/methodology.md)；Tableau 文件说明见[交付状态](TABLEAU_HANDOFF.md)和[工作簿维护指南](docs/tableau_build_guide.md)。
+
+## 项目资料
+
+- 中文案例：[HTML](case_study/case_study_cn.html) / [PDF](case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf) / [可编辑 PPTX](case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx)
+- 英文案例：[HTML](case_study/case_study_en.html) / [PDF](case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf) / [可编辑 PPTX](case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx)
+- [英文 README](README.md)、[方法说明](docs/methodology.md)、[数据字典](docs/data_dictionary.md)、[来源清单](docs/source_manifest.csv)
+- [独立审查记录](REVIEW_REPORT.md)、[历史校验记录](FINAL_QA.md)、[修改记录](CHANGELOG.md)、[Tableau 搭建指南](docs/tableau_build_guide.md)
+
+原课程项目提供业务问题的背景。本项目的分析结论来自官方经营数据与明确标注使用边界的竞品历史快照。历史检查记录保留各自的检查时间和范围，不代表本次语言调整新增了数据或业务结果验证。
 
 ## 仓库结构
 
-- `data/` 原始及处理后的数据
-- `sql/` MySQL 8+ 分析脚本
-- `notebooks/` 已执行的 Python 校验与分析 Notebook
-- `dashboard/final/` 最终英文 Tableau Dashboard 图片
-- 早期静态原型仅在工作仓库保留，最终交付 ZIP 不包含旧图
-- `docs/` 来源清单、数据字典与方法说明
-- `case_study/` 双语作品集案例文件
+- `data/`：原始数据与处理后数据
+- `sql/`：MySQL 8+ 分析脚本
+- `notebooks/`：已执行的 Python 数据检查与分析 Notebook
+- `dashboard/final/`：最终英文 Tableau Dashboard 图片与工作簿
+- `docs/`：来源清单、数据字典、方法说明与历史记录
+- `case_study/`：中英文 HTML、PDF 与可编辑 PPTX
+- `src/copy_zh_cn.json`：中文文案共享源
+- `src/`：数据、中文案例、网页与中文 README 的生成脚本
 
-## 交付物与校验
+## 文案与文件维护
 
-- 英文案例：[HTML](case_study/case_study_en.html) / [PDF](case_study/Duolingo_Growth_Operations_Case_Study_EN.pdf) / [可编辑幻灯片](case_study/Duolingo_Growth_Operations_Case_Study_EN.pptx)
-- 中文案例：[HTML](case_study/case_study_cn.html) / [PDF](case_study/Duolingo_Growth_Operations_Case_Study_CN.pdf) / [可编辑幻灯片](case_study/Duolingo_Growth_Operations_Case_Study_CN.pptx)
-- [英文 README](README.md)、[方法说明](docs/methodology.md)、[数据字典](docs/data_dictionary.md)
-- [独立审查](REVIEW_REPORT.md)、[最终校验](FINAL_QA.md)、[修改记录](CHANGELOG.md)、[Tableau 搭建指南](docs/tableau_build_guide.md)
+中文文案统一维护于 `src/copy_zh_cn.json`。修改文案后，在已配置演示文稿运行环境的项目目录中运行 `node src/build_case_studies.mjs`，更新中文七页 PDF、可编辑 PPTX 和网页；该脚本只处理中文版案例，保留英文案例、原始数据和最终 Tableau 素材。运行环境可通过 `CODEX_RUNTIME_DIR`、`CODEX_RUNTIME_NODE_MODULES`、`CODEX_RUNTIME_PYTHON`、`CODEX_PRESENTATION_SKILL` 等环境变量指定。导出后仍需逐页检查中文排版和可点击链接。
 
-原课程作业仅作为问题的背景。本仓库的结论来自官方公司数据与明确标注来源限制的竞品快照。
+`python src/build_public_pages.py` 根据共享中文文案生成中文首页及相关中文 HTML，并维护 `/en/` 英文入口。`python src/build_chinese_readme.py` 根据同一份中文文案和已批准的 Tableau 链接重新生成本文件。维护时应保持网页、PDF、PPTX 和中文 README 的核心措辞一致。
 
-## 重建与维护
+`src/build_project.py` 用于原有数据检查、Notebook 和早期静态原型的生成。安装 `requirements.txt` 后可用 `python src/build_project.py --check-only` 进行只读数据与 SQL 结果检查；中文文案更新本身不需要重建这些原型。原生 MySQL 环境的验证范围仍以方法说明为准。
 
-在隔离的 Python 环境中安装 `requirements.txt`，然后从项目目录运行 `python src/build_project.py`。该命令执行校验 Notebook 并重建旧版静态原型。已正确的处理后 CSV 按原字节保留；原始输入、SQL、来源文档及案例文字不会被覆盖。`--check-only` 用于只读数据与 SQL 校验；`--only dashboards` / `--only notebook` 用于单独刷新一类输出。需要中文字体；无法自动发现时可用 `--cn-font-path` 指定本地字体文件。
-
-单独的 `src/build_case_studies.mjs` 使用 Codex 演示文稿运行环境与无界面渲染器，更新已有七页模板、对应 PDF 与 HTML。脚本说明了运行环境路径的覆盖方式。修改内容或图片后需检查导出页面。最终 Tableau 工作簿及其图片仍是展示依据。历史校验记录说明此前完成的检查；本次发布验证覆盖两页最终视图的未登录公开图片导出。
+来源：Duolingo Investor Relations / SEC。指标定义与完整来源见方法说明、来源清单及演示文稿备注。

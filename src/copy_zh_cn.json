@@ -1,0 +1,131 @@
+{
+  "title": "Duolingo 增长与营销运营分析",
+  "roleLine": "增长运营 / 用户运营 / 产品运营 / 综合运营",
+  "cover": "随着 Duolingo 用户规模扩大，用户活跃度和商业化表现是否也同步提升？本项目通过 12 个季度的公开数据，对用户增长、活跃表现与商业化增长进行拆解，并将分析结果转化为运营关注重点。",
+  "longSummary": "随着 Duolingo 用户规模持续扩大，用户活跃度和商业化表现是否也同步提升？本项目基于 2023 Q1–2025 Q4 的公开经营数据，对用户规模、活跃度、付费订阅和收入增长进行对比，并结合 2026 年初的竞品数字表现，进一步提炼增长运营与用户运营的关注重点。",
+  "role": "项目工作：明确业务问题，统一指标口径，核对公开数据与计算结果，完成两页 Tableau Dashboard，并将分析发现转化为运营关注重点。",
+  "context": "仅看用户规模并不能完整判断增长质量。本项目进一步结合 DAU、付费订阅用户和收入表现，观察用户规模扩张是否同时带来了更高的活跃度和更强的商业化表现。",
+  "qs": [
+    "2023 Q1–2025 Q4 期间，用户规模、活跃度、付费订阅和收入分别发生了怎样的变化？",
+    "DAU、付费订阅用户和收入的增长速度是否高于 MAU？",
+    "2026 年初的竞品网站与社媒快照能提供哪些竞争背景？",
+    "基于公开数据，增长与运营团队下一步最值得关注和验证的问题是什么？"
+  ],
+  "scope": [
+    "分析 2023 Q1–2025 Q4 共 12 个季度的 Duolingo 官方经营数据，来源包括 Investor Relations 和 SEC 披露。",
+    "对比 MAU、DAU、DAU/MAU、付费订阅用户和季度收入，并计算 QoQ、YoY 和以 2023 Q1 = 100 为基期的增长指数。",
+    "竞品网站数据为 2026 年 2 月快照，社媒数据为 2026 年 3 月快照，仅用于补充竞争背景。",
+    "使用 SQL 编写核心指标和增速计算逻辑，Python 用于数据质量检查与结果交叉验证，最终通过 Tableau 展示分析结果。"
+  ],
+  "findings": [
+    "2023 Q1 至 2025 Q4，MAU 增长 83%，DAU 增长 160%。同期 DAU/MAU 从 28.0% 提升至 39.6%，增加 11.6 个百分点，说明日活用户相对于月活用户的占比持续提高，整体活跃强度增强。",
+    "同期付费订阅用户增长 154%，季度收入增长 145%，增速均明显高于 MAU。公开数据表明商业化增长快于用户规模扩张，但无法据此判断具体是转化率、定价还是其他因素推动。",
+    "到 2025 Q4，MAU 同比增速已放缓至 14%，但 DAU、付费订阅用户和季度收入仍分别同比增长 30%、28% 和 35%。用户规模增速放缓的同时，活跃和商业化仍保持更快增长。",
+    "2026 年 2–3 月的历史快照显示，在 Duolingo、Babbel 和 Busuu 三个对比品牌中，Duolingo 的网站流量和社媒受众规模明显领先。由于缺少原始带日期截图，这些历史数值目前无法独立复核，因此仅作为竞争背景参考，不用于判断市场份额或长期竞争趋势。"
+  ],
+  "recs": [
+    [
+      "关注活跃增长质量",
+      "进一步分析 DAU 增速高于 MAU 的原因，并持续观察 DAU/MAU 的提升是否能够维持，避免只用用户规模判断增长质量。"
+    ],
+    [
+      "强化会员价值沟通",
+      "测试更清晰的会员价值表达和更有针对性的试用策略，同时避免仅凭收入增速推断转化效率已经提升。"
+    ],
+    [
+      "兼顾增长与用户自主性",
+      "在推动活跃和商业化增长的同时，保留由用户自主调整的互动设置，并持续观察用户对相关机制的反馈。"
+    ]
+  ],
+  "methods": [
+    "使用 Duolingo 官方披露的 12 个季度、6 项经营指标，逐项记录数据来源与指标定义。",
+    "比较期间增长、QoQ、YoY、DAU/MAU 和增长指数；增速差用百分点表示。",
+    "通过 SQL 计算逻辑与 Python 结果交叉核对 16 个衍生字段，缺少前期数据的比较保留为空值。",
+    "两页已完成并发布的英文 Tableau Dashboard 为最终交互式展示，中英文案例共用同一组 Dashboard。"
+  ],
+  "limits": [
+    "公开汇总数据无法支持同期群留存（cohort retention）或真实免费到付费转化漏斗分析。",
+    "竞品网站与社媒数据为历史单点快照，且缺少原始带日期截图，因此仅用于竞争背景参考。",
+    "DAU/MAU 反映整体活跃强度，不等同于留存率。",
+    "仅凭付费订阅用户和收入增长，无法区分转化率、定价或其他因素各自的影响。",
+    "本项目识别的是描述性关系，不进行因果推断，也不声称运营建议已产生实际业务效果。"
+  ],
+  "positioning": "本项目将公开数据中的增长变化转化为运营关注重点与验证方向。后续行动仍需结合内部数据和实际测试，并关注免费用户体验与学习体验。",
+  "footer": "来源：Duolingo Investor Relations / SEC。指标定义与完整来源见方法说明、来源清单及演示文稿备注。",
+  "operationsIntro": "以下方向基于公开数据提出，仍需结合内部用户数据和实际测试进一步验证。本项目不声称相关策略已经实施或产生业务效果。",
+  "competitorCaveat": "竞品网站与社媒数据来自原课程项目中记录的历史快照。由于原始带日期截图和部分账户链接未保留，目前无法独立复核其准确采集时间，因此这些数据仅用于补充竞争背景，不用于推断市场份额、转化率、留存或长期趋势。",
+  "tech": "SQL 逻辑已通过 SQLite 兼容环境进行结果核对；原生 MySQL 环境未单独执行验证。原始数据、处理后 CSV、指标定义和已确认的分析结论均保持不变。",
+  "rounding": "增长率根据公开披露的数值计算，并按展示需要四舍五入。MAU、DAU 为季度平均人数，付费订阅用户为期末人数，收入为当季金额。披露数值本身已做过舍入，因此计算增速可能与公司使用未舍入数据公布的增速略有差异。",
+  "definitions": "DAU/MAU 是季度平均 DAU 与季度平均 MAU 的比值，反映整体活跃强度，不等同于留存率，也不能代表某个用户每日使用的概率。增速差用百分点表示，增长指数以 2023 Q1 = 100 为基期。",
+  "companyDefinition": "MAU、DAU 采用 Duolingo 自有的分析定义和估算口径，本项目未对用户人数进行独立测量。",
+  "labels": {
+    "portfolio": "作品集案例",
+    "brand": "增长分析",
+    "brandSuffix": "作品集",
+    "overview": "项目概览",
+    "businessQuestions": "业务问题",
+    "dashboards": "两页最终 Tableau Dashboard",
+    "findings": "关键发现",
+    "operations": "运营重点",
+    "method": "数据与方法",
+    "limits": "分析局限",
+    "resources": "项目资料",
+    "calculationDetails": "计算与工具说明",
+    "corporatePerformance": "经营数据范围",
+    "corporatePerformanceValue": "2023 Q1–2025 Q4 · 共 12 个季度",
+    "analysisAsOf": "分析时点",
+    "analysisAsOfValue": "2026 年 3 月",
+    "competitiveContext": "竞争背景",
+    "competitiveContextValue": "网站：2026 年 2 月 · 社媒：2026 年 3 月",
+    "scopeLine": "分析时点：2026 年 3 月。经营数据范围：2023 Q1–2025 Q4，共 12 个季度。",
+    "dashboardNote": "中英文案例共用以下两页最终英文 Tableau Dashboard。点击图片可查看完整尺寸。",
+    "dashboardPage1Title": "Page 1：用户规模、活跃度与商业化概览",
+    "dashboardPage2Title": "Page 2：增长诊断与竞争背景",
+    "dashboardPage1Caption": "Page 1：用户规模、活跃度与商业化趋势。",
+    "dashboardPage2Caption": "Page 2：增长差异、历史竞品背景与运营重点。",
+    "dashboardPage1Alt": "Tableau Page 1：用户规模、活跃度与商业化概览",
+    "dashboardPage2Alt": "Tableau Page 2：增长诊断与竞争背景",
+    "twelveQuarters": "12 个季度",
+    "publicData": "公开数据",
+    "slideCover": "案例研究 / 增长运营 / 用户运营 / 产品运营 / 综合运营",
+    "slideBusiness": "1. 业务问题、数据与方法",
+    "slideDashboard1": "2. 用户规模、活跃度与商业化概览",
+    "slideDashboard2": "3. 增长诊断与竞争背景",
+    "slideFindings": "4. 关键发现",
+    "slideOperations": "5. 运营重点",
+    "slideMethodLimits": "6. 方法与分析局限",
+    "independentPortfolio": "独立作品集案例 · 分析时点：2026 年 3 月",
+    "languageChinese": "中文",
+    "languageEnglish": "English",
+    "languageNavigation": "切换语言",
+    "sectionNavigation": "案例导航",
+    "resourceNavigation": "项目资料链接"
+  },
+  "nav": {
+    "overview": "项目概览",
+    "question": "业务问题",
+    "dashboards": "Dashboard",
+    "findings": "关键发现",
+    "operations": "运营重点",
+    "method": "方法",
+    "limits": "分析局限"
+  },
+  "cta": {
+    "tableau": "查看交互式 Tableau Dashboard ↗",
+    "tableauShort": "Tableau Public ↗",
+    "chinesePdf": "查看中文 Case Study PDF",
+    "englishPdf": "查看英文 Case Study PDF",
+    "repository": "项目仓库 / 完整资料 ↗",
+    "tableauPage1": "在 Tableau 中查看 Page 1 ↗",
+    "tableauPage2": "在 Tableau 中查看 Page 2 ↗",
+    "fullSizeImage": "查看完整尺寸图片 ↗",
+    "skip": "跳转至案例正文",
+    "backToTop": "返回顶部 ↑",
+    "sourceManifest": "来源清单",
+    "methodology": "方法说明",
+    "dataDictionary": "数据字典",
+    "editablePptx": "可编辑 PPTX",
+    "originalHtml": "完整 HTML 案例",
+    "workbook": "Tableau 工作簿"
+  }
+}
