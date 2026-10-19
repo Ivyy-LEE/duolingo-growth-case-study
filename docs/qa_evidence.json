@@ -70,7 +70,7 @@
     "protected_inputs_unchanged": true,
     "processed_outputs_regenerated": [],
     "bounded_dashboard_text_blocks": 24,
-    "python": "/private/tmp/duolingo-build-env/bin/python",
+    "python": "temporary Python build environment (path omitted)",
     "mode": "build",
     "output_family": "notebook",
     "notebook_executed": true,
@@ -240,7 +240,7 @@
         ],
         "cjk_char_count": 0,
         "pdf_exported_from_actual_final_pptx": true,
-        "preview_prefix": "/private/tmp/duolingo_visual_audit/finalEN"
+        "preview_prefix": "temporary visual audit previews: finalEN (not distributed)"
       },
       "CN": {
         "page_count": 7,
@@ -258,7 +258,7 @@
         ],
         "cjk_char_count": 878,
         "pdf_exported_from_actual_final_pptx": true,
-        "preview_prefix": "/private/tmp/duolingo_visual_audit/finalCN"
+        "preview_prefix": "temporary visual audit previews: finalCN (not distributed)"
       }
     },
     "html": {
